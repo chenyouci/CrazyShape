@@ -25,6 +25,6 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
-
+        Glide.with(this).asGif().load(R.drawable.cover).into(imageTitle)
     }
 }
